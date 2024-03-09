@@ -1,0 +1,67 @@
+body{
+  font-family: "Poppins", Arial, sans-serif;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 20px;
+  display:flex;
+  align-items: center;
+  justify-content: center;  
+  background-color: hsl(210, 12%, 93%);
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+.card{
+  background-color: white;
+  border: 1px solid hsl(0 0% 20%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0 0% 50%);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 190px;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-img{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  color: hsl(0, 0%, 20%);
+}
+
+.card .card-text{
+  color: hsl(0, 0%, 30%);
+}
+.card button {
+  margin: 5px;
+  border-radius: 15px;
+  color: hsl(0, 0%, 30%);
+  background-color: white;
+}
+.add-products{
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  margin-bottom: 20px; 
+}
+.add-products input{
+  background-color: hsl(210, 12%, 93%);
+  border-color: hsl(0, 0%, 30%);
+  border-radius: 10px;
+}
+.add-products button{
+  border-radius: 10px;
+}
